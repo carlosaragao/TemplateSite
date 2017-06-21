@@ -1,0 +1,206 @@
+﻿@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #F0FFFF
+}
+
+p {
+	text-align: justify;
+	text-indent: 50px;
+}
+
+div#interface {
+	width: 1200px;
+	background-color: #ffffff;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	padding: 10px;
+}
+
+/* Formatação do cabaçalho */
+
+header#cabecalho {
+	border-bottom: 1px #2FC52F solid;
+}
+
+header#cabecalho h1 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 28pt;
+	color: #228B22;
+}
+
+header#cabecalho img#logotipo {
+		width:100px;
+		height:100px;
+		left:0%;
+		margin-left:20px;
+}
+
+/* Formatação do menu */
+
+nav#menu {
+	display: block;
+	position: relative;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -150px;
+	right: 30px;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #2FC52F;
+	padding: 10px;
+	margin: 20px;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #36F836;
+}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a {
+	color: rgba(0,0,0,.5);
+	text-decoration: none;
+	font-family: Trebuchet MS;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+nav#menu a:hover {
+	text-decoration: underline;
+}
+
+/* Formatação de sessões */
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #2FC52F;
+	background-color: #176217;
+	padding: 20px;
+	color: #2FC52F;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+}
+
+footer#rodape p {
+	text-align: center;
+	font-weight: bolder;
+}
+
+aside#imagem-lateral {
+	display: block;
+	float: right;
+	width: auto;
+	padding-right: 200px;
+	margin-bottom: 20px;
+}
+
+section#form {
+	display: block;
+	width: 400px;
+	float: left;
+	padding-left: 10px;
+	margin-bottom: 40px;
+	margin-top: 50px;
+}
+
+section#form input[type=text] {
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #176217;
+	background: #2FC52F;
+	border: 1px solid #176217;
+	width: 200px;
+	height: 25px;
+	font-size: 14pt;
+	border: 0px;
+}
+
+section#form textarea {
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #176217;
+	background: #2FC52F;
+	border: 1px solid #176217;
+	width: 200px;
+	height: 100px;
+	font-size: 14pt;
+	border: 0px;
+}
+
+section#form input[type=text]:hover {
+	background: #36F836;
+	transition: 1s;
+}
+
+section#form textarea:hover {
+	background: #36F836;
+	transition: 1s;
+}
+
+section#form input.button {
+	border-radius: 5px;
+	border: 0px;
+	width: 80px;
+	height: 30px;
+	background: #2FC52F;
+	box-shadow: 4px 4px 4px #176217;
+}
+
+section#form input.button:hover {
+	background: #36F836;
+	transition: 1s;
+}
+
+/* Formatação de artigos */
+
+article.article h1 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 25pt;
+	color: #228B22;
+	text-align: center;
+}
+
+article.article p {
+	text-align: center;
+}
+
+article.article h3 {
+	background-color: #2FC52F;
+	color: rgba(0,0,0,.5);
+	padding: 5px;
+	font-size: 18pt;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+}
+
+/* formatando tabelas */
+
+table#table-form {
+	border-spacing: 5px;
+}
+
+table#table-form td.x {
+	text-align: left;
+	vertical-align: top;
+}
+
+table#table-buttons {
+	margin-left: 10px;
+	border-spacing: 5px;
+}
+
+table#table-buttons td#L {
+	padding-right: 80px;
+}
+
+table#table-buttons td#R {
+	padding-left: 80px;
+}

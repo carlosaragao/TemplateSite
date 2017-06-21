@@ -1,0 +1,193 @@
+﻿@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #F0FFFF
+}
+
+p {
+	text-align: justify;
+	text-indent: 50px;
+}
+
+p a {
+	color: #000000;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+div#interface {
+	width: 1200px;
+	background-color: #ffffff;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	padding: 10px;
+}
+
+/* Formatação do cabaçalho */
+
+header#cabecalho {
+	border-bottom: 1px #2FC52F solid;
+}
+
+header#cabecalho h1 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 28pt;
+	color: #228B22;
+}
+
+header#cabecalho img#logotipo {
+		width:100px;
+		height:100px;
+		left:0%;
+		margin-left:20px;
+}
+
+/* Formatação do menu */
+
+nav#menu {
+	display: block;
+	position: relative;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -150px;
+	right: 30px;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #2FC52F;
+	padding: 10px;
+	margin: 20px;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #36F836;
+}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a {
+	color: rgba(0,0,0,.5);
+	text-decoration: none;
+	font-family: Trebuchet MS;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+nav#menu a:hover {
+	text-decoration: underline;
+}
+
+/* Formatação de sessões */
+
+section#principal {
+	display: block;
+	width: 930px;
+	float: right;
+	padding-left: 10px;
+	border-left: 1px solid #2FC52F;
+}
+
+aside#menu-lateral {
+	display: block;
+	width: 220px;
+	float: left;
+	padding-left: 20px;
+	background-color: #2FC52F;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+	margin: 10px 0px 0px 0px;
+	padding-bottom: 770px;
+}
+
+aside#menu-lateral h1 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 25pt;
+	color: rgba(0,0,0,.5);
+}
+
+aside#menu-lateral ul {
+	color: rgba(0,0,0,1);
+	list-style: circle;
+}
+
+aside#menu-lateral a {
+	color: rgba(0,0,0,.5);
+	font-size: 13pt;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+aside#menu-lateral a:hover {
+	text-decoration: underline;
+}
+
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #2FC52F;
+	background-color: #176217;
+	padding: 20px;
+	color: #2FC52F;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+}
+
+footer#rodape p {
+	text-align: center;
+	font-weight: bolder;
+}
+
+/* Formatação de imagens */
+
+figure.foto-legenda {
+	position: relative;
+	border: 8px solid #2FC52F;
+	box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda figcaption {
+	opacity: 0;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.4);
+	top:0px;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	color: white;
+	padding: 15px;
+	transition: opacity 1s;
+	font-size: 14pt;
+}
+
+figure.foto-legenda:hover figcaption {
+	opacity: 1;
+}
+
+/* Formatação do artigo "queimada" */
+
+article.article h1 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 25pt;
+	color: #228B22;
+	text-align: center;
+}
+
+article.article h2 {
+	background-color: #2FC52F;
+	color: rgba(0,0,0,.5);
+	padding: 5px;
+	font-size: 18pt;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+}

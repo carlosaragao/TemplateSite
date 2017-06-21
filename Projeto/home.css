@@ -1,0 +1,220 @@
+﻿@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #F0FFFF
+}
+
+p {
+	text-align: justify;
+	text-indent: 50px;
+}
+
+a {
+	color: #000000;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+div#interface {
+	width: 1200px;
+	background-color: #ffffff;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	padding: 10px;
+}
+
+/* Formatação do cabaçalho */
+
+header#cabecalho {
+	border-bottom: 1px #2FC52F solid;
+}
+
+header#cabecalho h1 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 28pt;
+	color: #228B22;
+}
+
+header#cabecalho img#logotipo {
+		width:100px;
+		height:100px;
+		left:0%;
+		margin-left:20px;
+}
+
+/* Formatação de imagens */
+
+figure.foto-legenda {
+	position: relative;
+	border: 8px solid #2FC52F;
+	box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+	width: 100%;
+	height: 100%;
+}
+
+figure.foto-legenda figcaption {
+	opacity: 0;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.4);
+	top:0px;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	color: white;
+	padding: 15px;
+	transition: opacity 1s;
+	font-size: 14pt;
+}
+
+figure.foto-legenda:hover figcaption {
+	opacity: 1;
+}
+
+/*-----------------------*/
+
+figure.foto-legenda-verde {
+	position: relative;
+	border: 8px solid #176217;
+	box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda-verde img {
+	width: 100%;
+	height: 100%;
+}
+
+figure.foto-legenda-verde figcaption {
+	opacity: 0;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.4);
+	top:0px;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	color: white;
+	padding: 15px;
+	transition: opacity 1s;
+	font-size: 14pt;
+}
+
+figure.foto-legenda-verde:hover figcaption {
+	opacity: 1;
+}
+
+/* Formatação do menu */
+
+nav#menu {
+	display: block;
+	position: relative;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -150px;
+	right: 30px;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #2FC52F;
+	padding: 10px;
+	margin: 20px;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #36F836;
+}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a {
+	color: rgba(0,0,0,.5);
+	text-decoration: none;
+	font-family: Trebuchet MS;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+nav#menu a:hover {
+	text-decoration: underline;
+}
+
+/* Formatação de sessões */
+
+section#principal {
+	display: block;
+	width: 685px;
+	float: left;
+	border-right: 1px solid #2FC52F;
+	padding-right: 20px;
+}
+
+aside#lateral {
+	display: block;
+	width: 460px;
+	float: right;
+	background-color: #2FC52F;
+	padding: 10px;
+	margin-top: 10px;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+}
+
+aside#lateral h1 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 25pt;
+	color: rgba(0,0,0,.5);
+}
+
+aside#lateral h2 {
+	font-size: 18pt;
+	background-color: rgba(0,0,0,.5);
+	padding: 5px;
+	font-size: 18pt;
+	color: #2FC52F;
+}
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #2FC52F;
+	background-color: #176217;
+	padding: 20px;
+	color: #2FC52F;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+}
+
+footer#rodape p {
+	text-align: center;
+	font-weight: bolder;
+}
+
+/* Formatação do artigo "sustentabilidade" */
+
+article#sustentabilidade h1 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 25pt;
+	color: #228B22;
+	text-align: center;
+}
+
+article#sustentabilidade h2 {
+	background-color: #2FC52F;
+	color: rgba(0,0,0,.5);
+	padding: 5px;
+	font-size: 18pt;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+}
+
